@@ -2,7 +2,7 @@ from PIL import Image
 import math
 
 image = Image.open('formlabs_logo_with_words.png')
-print(f"Original size : {image.size}") # 5464x3640
+# print(f"Original size : {image.size}") # 5464x3640
 ratio = image.size[0] / image.size[1]
 
 width = 50
